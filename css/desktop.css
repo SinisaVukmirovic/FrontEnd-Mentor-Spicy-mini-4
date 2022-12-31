@@ -5,22 +5,35 @@
 
     body {
         background-color: #111;
+        /* color: var(--font-clr); */
+        background-image:      radial-gradient(25% 40% at 30% 15%,#094953 80%,#0000 81%),
+        radial-gradient(15% 25% at 70% 70%,#007529 80%,#0000 81%);
+        background-size: cover;
     }
 
     main {
         max-width: 20rem;
         margin: 5rem auto 0;
-        background-color: #ccc;
+        background-color: var(--card-bg);
+        border: 1px solid var(--font-clr);
+        backdrop-filter: var(--blur);
+        box-shadow: var(--box-shadow);
+    }
+    .summary h2,
+    .summary p,
+    .summary a,
+    .summary .bold {
+        color: var(--font-clr);
     }
 
     section.img {
         padding: 3rem 0 0;
     }
         section.img img {
-            background-color: #fff;
+            background-color: var(--accent-bg);
             border-radius: 50%;
-            padding: 1.5rem;
-            width: 40%;
+            padding: 1rem;
+            width: 45%;
         }
 
     /* .price {
@@ -29,6 +42,13 @@
         align-items: center;
         margin: 2rem 0;
     } */
+
+    button.primary {
+        background-color: var(--theme-clr);
+    }
+    button {
+        color: var(--font-clr);
+    }
 
     footer { 
         font-size: 14px; text-align: center; 

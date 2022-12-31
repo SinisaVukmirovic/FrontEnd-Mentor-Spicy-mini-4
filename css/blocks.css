@@ -60,6 +60,9 @@ button.primary {
     font-weight: 900;
     margin-bottom: 1.5rem;
 }
+button {
+    color: var(--Desaturated-blue);
+}
 
 footer { 
     font-size: 11px; text-align: center; 
