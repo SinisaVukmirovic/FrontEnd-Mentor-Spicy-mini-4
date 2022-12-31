@@ -21,7 +21,7 @@ section.summary h2 {
 }
     .summary p {
         color: var(--Desaturated-blue);
-        padding: 0 1rem;
+        padding: 0 .5rem;
     }
     .summary .bold {
         color: var(--Dark-blue);
@@ -44,10 +44,17 @@ section.summary h2 {
     margin: 2rem 0;
     font-size: .9rem;
 }
+    .plan {
+        /* background-color: lime;
+        justify-self: flex-start; */
+        /* display: flex;
+        flex-direction: column; */
+        margin-right: 1.5rem;
+    }
 
 button.primary {
     padding: 1rem;
-    border-radius: .75rem;
+    border-radius: .5rem;
     background-color: var(--Bright-blue);
     color: var(--Pale-blue);
     font-weight: 900;

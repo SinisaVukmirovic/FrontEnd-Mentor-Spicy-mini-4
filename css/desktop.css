@@ -1,20 +1,26 @@
 @media (min-width: 1440px) {
-    /* body { */
-        /* background-color: red; */
-    /* } */
+    html {
+        font-size: 18px;
+    }
+
+    body {
+        background-color: #111;
+    }
 
     main {
-        max-width: 25rem;
-
+        max-width: 20rem;
+        margin: 5rem auto 0;
+        background-color: #ccc;
     }
 
     section.img {
-        padding: 3rem 5rem 2rem;
+        padding: 3rem 0 0;
     }
         section.img img {
             background-color: #fff;
             border-radius: 50%;
             padding: 1.5rem;
+            width: 40%;
         }
 
     /* .price {
@@ -23,6 +29,11 @@
         align-items: center;
         margin: 2rem 0;
     } */
+
+    footer { 
+        font-size: 14px; text-align: center; 
+        color: #eee;
+    }
 }
 
 /* body {
