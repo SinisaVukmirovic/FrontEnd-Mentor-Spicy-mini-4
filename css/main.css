@@ -1,4 +1,5 @@
 @import 'blocks.css';
+@import 'desktop.css';
 
 * {
     box-sizing: border-box;
@@ -44,5 +45,7 @@ button {
     display: block;
     outline: none;
     border: none;
-    margin: 1rem auto;
+    /* margin: 1rem; */
+    text-align: center;
+    width: 100%;
 }
