@@ -47,5 +47,7 @@ button {
     border: none;
     /* margin: 1rem; */
     text-align: center;
+    color: var(--Desaturated-blue);
+    font-weight: 900;
     width: 100%;
 }
