@@ -17,12 +17,12 @@
     --Desaturated-blue: hsl(224, 23%, 55%);
     --Dark-blue: hsl(223, 47%, 23%);
     /* glassmorphism */
-    --card-bg: rgba(255, 255, 255, .15);
-    --accent-bg: rgba(255, 255, 255, .2);
+    --card-bg: rgba(255, 255, 255, .1);
+    --accent-bg: rgba(255, 255, 255, .15);
     --theme-clr: rgba(27, 50, 94, .6);
     --font-clr: rgba(255, 255, 255, .8);
-    --blur: blur(20px);
-    --box-shadow: inset 0 0 5px 2px var(--accent-bg);
+    --blur: blur(50px);
+    --box-shadow: inset 0 0 6px 3px var(--accent-bg);
 
     /* --radials: radial-gradient(circle, hsl(0, 0%, 0%) 20%, 
                                        hsl(0, 0%, 1%) 20% 30%,
@@ -67,3 +67,7 @@ button {
     font-size: .9rem;
     /* color: var(--Desaturated-blue); */
 }
+    button:active,
+    button:target {
+        scale: .98;
+    }
