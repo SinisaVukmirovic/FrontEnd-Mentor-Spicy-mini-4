@@ -17,8 +17,8 @@ This is a SPICED UP solution to the [Order summary card challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [CODE]()
-- Live Site URL: [DEMO]()
+- Solution URL: [CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-Spicy-mini-4)
+- Live Site URL: [DEMO](https://sinisavukmirovic.github.io/FrontEnd-Mentor-Spicy-mini-4/)
 
 ## Author
 
