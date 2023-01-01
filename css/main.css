@@ -19,7 +19,8 @@
     /* glassmorphism */
     --card-bg: rgba(255, 255, 255, .1);
     --accent-bg: rgba(255, 255, 255, .15);
-    --theme-clr: rgba(27, 50, 94, .6);
+    --theme-clr: rgba(27, 50, 94, .5);
+    /* --theme-clr: rgb(35, 55, 89, .5); */
     --font-clr: rgba(255, 255, 255, .8);
     --blur: blur(50px);
     --box-shadow: inset 0 0 6px 3px var(--accent-bg);
